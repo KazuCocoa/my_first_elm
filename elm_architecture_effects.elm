@@ -20,7 +20,7 @@ view : Model -> Html Msg
 view model =
   ...
 
-
+-- !!commands and subscriptions are data!!
 -- SUBSCRIPTIONS
 
 subscriptions : Model -> Sub Msg
