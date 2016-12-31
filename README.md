@@ -6,13 +6,15 @@ this repository is my first Elm-language
     - https://guide.elm-lang.org/architecture/
     - TODO list: https://github.com/evancz/elm-todomvc
 
-Elm、tupleもあるんだ。
-
-Elm architectureはいかの通りに区分している。
+## Basic Elm Architecture
 
 1. Model  - a full definition of the application's state
 2. Update - a way to step the application state forward
 3. View   - a way to visualize our application state with HTML
+
+### effects
+- init
+- subscriptions
 
 
 ## run tutorial
@@ -23,3 +25,13 @@ $ elm-reactor
 ```
 
 and open `http://localhost:8000` via browser.
+
+## error handling
+- https://guide.elm-lang.org/error_handling/
+
+> Elm treats errors as data.
+
+## Effect Managers
+
+- https://guide.elm-lang.org/effect_managers/
+- similar example: Phoenix Channels

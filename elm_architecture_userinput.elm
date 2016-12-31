@@ -1,3 +1,4 @@
+-- https://guide.elm-lang.org/architecture/user_input/
 import Html exposing (..)
 
 -- MODEL

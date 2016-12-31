@@ -1,3 +1,4 @@
+-- https://guide.elm-lang.org/architecture/effects/
 -- MODEL
 
 type alias Model =
